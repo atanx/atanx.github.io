@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d50990-2af6-4883-a25c-4304999dc6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-package-dev-base.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-package-dev-mvc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-库开发-定时任务框架.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -120,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-03-04-python-package-dev-base.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-03-04-python-package-dev-base.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/技术/2019-03-04-python-package-dev-base.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -133,13 +131,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-03-04-python-jieba.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/技术/2017-03-04-python-jieba.md">
+      <file leaf-file-name="2019-02-21-php-laravel.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4094">
-                <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-                <folding />
+              <first_editor relative-caret-position="156">
+                <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+                <folding>
+                  <marker date="1551692702598" expanded="true" signature="1563:1713" ph="{...}" />
+                  <marker date="1551692702598" expanded="true" signature="1581:1607" ph="[...]" />
+                  <marker date="1551692702598" expanded="true" signature="1622:1653" ph="{...}" />
+                  <marker date="1551692702598" expanded="true" signature="1668:1711" ph="[...]" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -182,7 +185,6 @@
         <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial-file.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2016-04-01-MATLAB-content.md" />
-        <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-01-21-python-unitest.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2016-10-04-python-use-logging.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-02-04-python-Send-Mail-yagmail.md" />
@@ -203,6 +205,7 @@
         <option value="$PROJECT_DIR$/_posts/技术/2019-03-04-python-库开发-定时任务框架.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-03-04-python-package-dev-mvc.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-03-04-python-package-dev-base.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" />
       </list>
     </option>
   </component>
@@ -221,10 +224,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP56" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="131" />
-    <option name="width" value="1936" />
-    <option name="height" value="1092" />
+    <option name="x" value="160" />
+    <option name="y" value="142" />
+    <option name="width" value="1755" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -359,14 +362,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="17233000" />
-    </task>
-    <task id="LOCAL-00008" summary="m">
-      <created>1551678830623</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1551678830623</updated>
+      <workItem from="1551674276380" duration="17507000" />
     </task>
     <task id="LOCAL-00009" summary="m">
       <created>1551679046647</created>
@@ -704,23 +700,30 @@
       <option name="project" value="LOCAL" />
       <updated>1551691875050</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="增加">
+      <created>1551692431600</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1551692431600</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17233000" />
+    <option name="totallyTimeSpent" value="17507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="131" width="1936" height="1092" extended-state="0" />
+    <frame x="160" y="142" width="1755" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27669618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169456" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36771846" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1313,22 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            <folding>
-              <marker date="1551688936098" expanded="true" signature="1530:1680" ph="{...}" />
-              <marker date="1551688936098" expanded="true" signature="1548:1574" ph="[...]" />
-              <marker date="1551688936098" expanded="true" signature="1589:1620" ph="{...}" />
-              <marker date="1551688936098" expanded="true" signature="1635:1678" ph="[...]" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial-file.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1456,6 +1443,22 @@
           <first_editor relative-caret-position="276">
             <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="156">
+            <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <folding>
+              <marker date="1551692702598" expanded="true" signature="1563:1713" ph="{...}" />
+              <marker date="1551692702598" expanded="true" signature="1581:1607" ph="[...]" />
+              <marker date="1551692702598" expanded="true" signature="1622:1653" ph="{...}" />
+              <marker date="1551692702598" expanded="true" signature="1668:1711" ph="[...]" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

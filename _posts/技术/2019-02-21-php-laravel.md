@@ -13,7 +13,7 @@ category: 技术
 composer global require "laravel/installer"
 ```
 
-```vbs
+```
 laravel new blog
 ```
 
@@ -65,6 +65,7 @@ php artisan db:seed
 
 php artisan make Model/
 
+php artisan make:model Models/Order
 ```
 
 
@@ -124,3 +125,4 @@ http://www.bcty365.com/content-153-5886-1.html
 
 修改auth provider
 http://www.bcty365.com/content-153-5884-1.html
+
