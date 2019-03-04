@@ -47,7 +47,7 @@ locals:
 subscribe_rss: /pages/rss.xml
 
 # 头像
-avatar: /assets/image/avatar.png
+avatar: /assets/image/headimg.jpg
 # avatar: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/favicon.ico
 # 网站CSS路径
 css: /assets/css/
