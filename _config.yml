@@ -1,9 +1,9 @@
 # Site settings
 title: 江斌的个人博客
 email: 07jiangbin@163.com
-description: > #Bobby的实验室
+description: > #江斌的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dontstay.github.io/index.html" # the base hostname & protocol for your site
+url: "http://atanx.github.io/index.html" # the base hostname & protocol for your site
 
 # Paginate（分页）
 #gems: [jekyll-paginate]
@@ -44,7 +44,7 @@ locals:
   tags: 标签
   about: 关于
   active: news
-subscribe_rss: /pages/atom.xml
+subscribe_rss: /pages/rss.xml
 
 # 头像
 avatar: /assets/image/avatar.png
