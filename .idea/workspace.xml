@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d50990-2af6-4883-a25c-4304999dc6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2017-12-20-python-fasttext.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md" afterPath="$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2018-10-14-python-invoke-word-application.md" afterPath="$PROJECT_DIR$/_posts/技术/2018-10-14-python-invoke-word-application.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,16 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -77,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-03-04-python-Send-Mail-yagmail.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019-03-04-python-Send-Mail-yagmail.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="138">
-                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <first_editor relative-caret-position="207">
+                <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,12 +80,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-04-14-python-pandas.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-04-14-python-pandas.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-03-04-python-jieba.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2017-03-04-python-jieba.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-10-14-python-invoke-word-application.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-14-python-invoke-word-application.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="519">
+                <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-10-04-python-image-processing-PIL.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-04-python-image-processing-PIL.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,26 +134,6 @@
       </file>
       <file leaf-file-name="scripts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/forum.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -165,8 +174,9 @@
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2018-07-16-js-export-csv-file-encoding.md" />
         <option value="$PROJECT_DIR$/_posts/生活/2019-03-04-life-find-a-new-way.md" />
-        <option value="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2018-10-14-python-invoke-word-application.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" />
       </list>
     </option>
   </component>
@@ -316,7 +326,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="12240000" />
+      <workItem from="1551674276380" duration="12418000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1551674364649</created>
@@ -563,11 +573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551687295328</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="增加">
+      <created>1551687435272</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1551687435272</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12240000" />
+    <option name="totallyTimeSpent" value="12418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -922,22 +939,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md">
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2017-04-14-python-pandas.md">
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2017-03-04-python-jieba.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-04-python-image-processing-PIL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-10-14-python-invoke-word-application.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="519">
+            <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
