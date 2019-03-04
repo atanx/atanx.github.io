@@ -44,13 +44,13 @@
         <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <first_editor relative-caret-position="207">
+                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding>
-                  <marker date="1551688802400" expanded="true" signature="1534:1684" ph="{...}" />
-                  <marker date="1551688802400" expanded="true" signature="1552:1578" ph="[...]" />
-                  <marker date="1551688802400" expanded="true" signature="1593:1624" ph="{...}" />
-                  <marker date="1551688802400" expanded="true" signature="1639:1682" ph="[...]" />
+                  <marker date="1551688936098" expanded="true" signature="1530:1680" ph="{...}" />
+                  <marker date="1551688936098" expanded="true" signature="1548:1574" ph="[...]" />
+                  <marker date="1551688936098" expanded="true" signature="1589:1620" ph="{...}" />
+                  <marker date="1551688936098" expanded="true" signature="1635:1678" ph="[...]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -368,7 +368,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="13730000" />
+      <workItem from="1551674276380" duration="13743000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1551674364649</created>
@@ -671,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551688751901</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="增加">
+      <created>1551688930630</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1551688930630</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13730000" />
+    <option name="totallyTimeSpent" value="13743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -1172,13 +1179,13 @@
     <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding>
-              <marker date="1551688802400" expanded="true" signature="1534:1684" ph="{...}" />
-              <marker date="1551688802400" expanded="true" signature="1552:1578" ph="[...]" />
-              <marker date="1551688802400" expanded="true" signature="1593:1624" ph="{...}" />
-              <marker date="1551688802400" expanded="true" signature="1639:1682" ph="[...]" />
+              <marker date="1551688936098" expanded="true" signature="1530:1680" ph="{...}" />
+              <marker date="1551688936098" expanded="true" signature="1548:1574" ph="[...]" />
+              <marker date="1551688936098" expanded="true" signature="1589:1620" ph="{...}" />
+              <marker date="1551688936098" expanded="true" signature="1635:1678" ph="[...]" />
             </folding>
           </first_editor>
           <second_editor />
