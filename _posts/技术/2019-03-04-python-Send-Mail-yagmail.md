@@ -1,29 +1,26 @@
 ---
 layout: post
-title: Python-使用pptx生成powerpoint-ppt文件
-description: Python-使用pptx生成powerpoint-ppt文件
+title: Python-使用PIL处理图像
+description: Python-使用PIL处理图像
 category: 技术
 ---
 
 ## DEMO程序
 ```python
-#!/usr/bin/env python
-#coding=utf-8
+# 缩略图生成
+from PIL import Image as PilImage
+img = PilImage.open(self.abspath)
+img.thumbnail((new_width, new_height), PilImage.ANTIALIAS)
+img.save(dst)
 
-from pptx import Presentation
-# 创建幻灯片 ------
-prs = Presentation()
-title_slide_layout = prs.slide_layouts[0]
-slide = prs.slides.add_slide(title_slide_layout)
+# 裁剪图片
+new_img = img.crop((left, upper, right, lower))
+file_path = os.path.join(self.path, self.name + '.min' + self.ext)
+new_img.save(file_path)
 
-title = slide.shapes.title
-subtitle = slide.placeholders[1]
+# 拼接图片
 
-# 设置标题和副标题
-title.text = "Hello, World!"
-subtitle.text = "pip install python-pptx"
-
-prs.save("test.pptx")
-
-
+for f in 
+region = im.open()
+im.paste(region)
 ```
