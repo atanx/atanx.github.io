@@ -6,6 +6,7 @@ category: 技术
 ---
 
 
+
 # 安装yagmail
 
 `pip install yagmail`
