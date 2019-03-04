@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 Disallow: /bin/
-Sitemap: http://dontstay.github.io/sitemap.xml
+Sitemap: http://atanx.github.io/sitemap.xml
