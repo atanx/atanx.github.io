@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python-GUI界面开发-Tkinter基础(1)
-description: Python Tkinter Helloword应用
-category: 技术
+title: 2019年3月新征程
+description: 2019年3月新征程
+category: 生活
 ---
 
 
