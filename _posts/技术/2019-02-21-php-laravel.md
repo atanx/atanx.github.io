@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP-laravel笔记
-description:PHP-laravel笔记
+description: PHP-laravel笔记
 category: 技术
 ---
 [toc]

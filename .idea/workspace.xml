@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d50990-2af6-4883-a25c-4304999dc6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2016-04-01-MATLAB-content.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,17 +40,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-02-21-php-laravel.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019-02-21-php-laravel.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                 <folding>
-                  <marker date="1551688449462" expanded="true" signature="1533:1683" ph="{...}" />
-                  <marker date="1551688449462" expanded="true" signature="1551:1577" ph="[...]" />
-                  <marker date="1551688449462" expanded="true" signature="1592:1623" ph="{...}" />
-                  <marker date="1551688449462" expanded="true" signature="1638:1681" ph="[...]" />
+                  <marker date="1551688802400" expanded="true" signature="1534:1684" ph="{...}" />
+                  <marker date="1551688802400" expanded="true" signature="1552:1578" ph="[...]" />
+                  <marker date="1551688802400" expanded="true" signature="1593:1624" ph="{...}" />
+                  <marker date="1551688802400" expanded="true" signature="1639:1682" ph="[...]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -126,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-04-01-MATLAB-content.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-04-01-MATLAB-content.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/技术/2016-04-01-MATLAB-content.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
+              <first_editor relative-caret-position="459">
                 <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -218,6 +218,7 @@
         <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial-file.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2016-07-02-mysql.md" />
         <option value="$PROJECT_DIR$/_posts/技术/2016-04-01-MATLAB-content.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md" />
       </list>
     </option>
   </component>
@@ -367,7 +368,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="13556000" />
+      <workItem from="1551674276380" duration="13730000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1551674364649</created>
@@ -663,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551688636027</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="增加">
+      <created>1551688751901</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1551688751901</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13556000" />
+    <option name="totallyTimeSpent" value="13730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -1088,38 +1096,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            <folding>
-              <marker date="1551688449462" expanded="true" signature="1533:1683" ph="{...}" />
-              <marker date="1551688449462" expanded="true" signature="1551:1577" ph="[...]" />
-              <marker date="1551688449462" expanded="true" signature="1592:1623" ph="{...}" />
-              <marker date="1551688449462" expanded="true" signature="1638:1681" ph="[...]" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/技术/2018-08-16-php-tutorial-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial-file.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1169,9 +1150,36 @@
     <entry file="file://$PROJECT_DIR$/_posts/技术/2016-04-01-MATLAB-content.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
+          <first_editor relative-caret-position="459">
             <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-tutorial-file.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-02-21-php-laravel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <folding>
+              <marker date="1551688802400" expanded="true" signature="1534:1684" ph="{...}" />
+              <marker date="1551688802400" expanded="true" signature="1552:1578" ph="[...]" />
+              <marker date="1551688802400" expanded="true" signature="1593:1624" ph="{...}" />
+              <marker date="1551688802400" expanded="true" signature="1639:1682" ph="[...]" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
