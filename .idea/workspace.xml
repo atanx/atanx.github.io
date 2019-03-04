@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d50990-2af6-4883-a25c-4304999dc6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-algorithm.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2018-01-24-common-practise.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-common-practise.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-algorithm.md" afterPath="$PROJECT_DIR$/_posts/技术/2018-01-23-javascript-algorithm.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,48 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2016-07-02-mysql.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/技术/2016-07-02-mysql.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="230">
-                <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-                <folding>
-                  <marker date="1551688631816" expanded="true" signature="116:149" ph="drop table i... " />
-                  <marker date="1551688631816" expanded="true" signature="201:237" ph="delete from " />
-                  <marker date="1551688631816" expanded="true" signature="247:280" ph="drop table i... " />
-                  <marker date="1551688631816" expanded="true" signature="377:428" ph="update theTa... " />
-                  <marker date="1551688631816" expanded="true" signature="430:512" ph="update table... " />
-                  <marker date="1551688631816" expanded="true" signature="526:603" ph="alter table `tableName`... " />
-                  <marker date="1551688631816" expanded="true" signature="605:650" ph="alter table `tableName`... " />
-                  <marker date="1551688631816" expanded="true" signature="713:735" ph="select * fro... theTable" />
-                  <marker date="1551688631816" expanded="true" signature="842:1198" ph="SELECT phone... *" />
-                  <marker date="1551688631816" expanded="true" signature="945:1050" ph="select d.*, dianxiao_detail" />
-                  <marker date="1551688631816" expanded="true" signature="1070:1162" ph="SELECT phone... dianxiao_detail" />
-                  <marker date="1551688631816" expanded="true" signature="1307:1361" ph="/* 计算上周一和上周日... " />
-                  <marker date="1551688631816" expanded="true" signature="1490:1550" ph="select date_... " />
-                  <marker date="1551688631816" expanded="true" signature="1801:1835" ph="drop table i... " />
-                  <marker date="1551688631816" expanded="true" signature="1838:1891" ph="create table... tmp_diujuzi_t" />
-                  <marker date="1551688631816" expanded="true" signature="1895:1929" ph="drop table i... " />
-                  <marker date="1551688631816" expanded="true" signature="1932:1985" ph="create table... tmp_diubang_t" />
-                  <marker date="1551688631816" expanded="true" signature="2094:2387" ph="CREATE TABLE... range" />
-                  <marker date="1551688631816" expanded="true" signature="2398:2548" ph="CREATE TABLE... list" />
-                  <marker date="1551688631816" expanded="true" signature="2560:2647" ph="CREATE TABLE... hash" />
-                  <marker date="1551688631816" expanded="true" signature="2657:2743" ph="CREATE TABLE... t_key" />
-                  <marker date="1551688631816" expanded="true" signature="2765:2848" ph="ALTER TABLE sale_data... " />
-                  <marker date="1551688631816" expanded="true" signature="2870:3151" ph="ALTER TABLE sale_data... " />
-                  <marker date="1551688631816" expanded="true" signature="3454:3512" ph="select table... information_schema" />
-                  <marker date="1551688631816" expanded="true" signature="3553:3617" ph="select * fro... processlist" />
-                  <marker date="1551688631816" expanded="true" signature="3649:3936" ph="delete from " />
-                  <marker date="1551688631816" expanded="true" signature="3685:3934" ph="select id fr... id" />
-                  <marker date="1551688631816" expanded="true" signature="3703:3913" ph="select id, t... " />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,12 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-01-23-javascript-algorithm.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-algorithm.md">
+      <file leaf-file-name="2018-01-23-javascript-algorithm.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2018-01-23-javascript-algorithm.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding>
                   <marker date="1551690005499" expanded="true" signature="145:169" ph="{...}" />
                   <marker date="1551690005499" expanded="true" signature="208:246" ph="{...}" />
@@ -293,6 +253,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2019-01-23-javascript-common-practise.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-common-practise.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -338,6 +311,7 @@
         <option value="$PROJECT_DIR$/_posts/技术/2016-07-02-mysql.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-algorithm.md" />
+        <option value="$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-common-practise.md" />
       </list>
     </option>
   </component>
@@ -487,14 +461,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="14812000" />
-    </task>
-    <task id="LOCAL-00002" summary="m">
-      <created>1551676597682</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1551676597682</updated>
+      <workItem from="1551674276380" duration="15108000" />
     </task>
     <task id="LOCAL-00003" summary="m">
       <created>1551677031180</created>
@@ -832,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551689691279</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="增加">
+      <created>1551690019683</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1551690019683</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14812000" />
+    <option name="totallyTimeSpent" value="15108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -1366,11 +1340,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-algorithm.md">
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2018-01-23-javascript-algorithm.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding>
               <marker date="1551690005499" expanded="true" signature="145:169" ph="{...}" />
               <marker date="1551690005499" expanded="true" signature="208:246" ph="{...}" />
@@ -1516,6 +1490,17 @@
               <marker date="1551690005499" expanded="true" signature="16420:16584" ph="{...}" />
               <marker date="1551690005499" expanded="true" signature="16607:16656" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/技术/2019-01-23-javascript-common-practise.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
