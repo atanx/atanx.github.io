@@ -23,8 +23,7 @@ title: 江斌的个人博客
 
 联系方式：
 
-Weibo：Lingxian_Kong
-Email: larrykong2016@gmail.com
-Linkdin: https://www.linkedin.com/in/lingxian-kong-a1b23610a
-微信公众号二维码：
+Weibo：蜀山掌门
+Email: 07jiangbin@163.com
+QQ: 365039667
 ---
