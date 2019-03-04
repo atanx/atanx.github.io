@@ -1,79 +1,80 @@
 ---
 layout: post
-title: Python-使用多线程和多进程
-description: Python-使用多线程和多进程
+title: Python-创建自定义包
+description: Python-创建自定义包
 category: 技术
 ---
+## 使用python创建自定义包
 
-## 多线程
-```python
-setDameon(True) 设置守护进程，守护进程最后退出
-join() 阻塞主线程
-join(3) 阻塞主线程3s,主线程结束，子线程仍会继续执行至完成
-setDameon(True) join()同时使用时，主线程结束，子线程也结束。
+下面的代码可以创建一个基本的自定义包项目结构。 
 
-```
-
-## 多进程
-### 示例1
 ```python
 #!/usr/bin/env python
-#coding=utf-8
+# coding=utf-8
+import sys
+import os
 
-from  multiprocessing import Pool, Queue
-import os, time,random
+code = "#!/usr/bin/env python\n# coding=utf-8"
+setup = """
+from setuptools import setup, find_packages
+
+setup(
+	name='{project_name}',
+	version='1.0.0',
+	author='Peter Jiang',
+	email='07jiangbin@163.com',
+	description='描述信息',
+	packages=find_packages(),
+	# package_data={'sayhello': ['readme.txt']},
+	# entry_points={
+	# 	'console_scripts': [
+	# 		'hello = sayhello:run'
+	# 	]
+	# }
+)
+"""
 
 
-def do_task(name):
-	print "Run task {name}".format(name=name)
-	st = time.time()
-	time.sleep(3)
-	et = time.time()
-	print "Task {name} runs {dur} seconds".format(name=name, dur=et-st)
+def create_project(project_name):
+	split = os.path.split
+	join = os.path.join
+	p, f = split(__file__)
+	root = join(p, project_name)
+	files = [
+		'docs/readme.md',
+		'{project_name}/__init__.py'.format(project_name=project_name),
+		'test/test.py',
+		'setup.py',
+		'setup.cmd'
+	]
+	for filename in files:
+		full_filename = os.path.join(root, filename)
+		path, filename = split(full_filename)
+		if not os.path.exists(path):
+			os.makedirs(path)
+		if filename and not os.path.exists(full_filename):
+			fid = open(full_filename, 'w+')
+			if full_filename.endswith('.py'):
+				fid.write(code)
+			if full_filename.endswith('setup.py'):
+				fid.write(setup.replace('{project_name}', project_name))
+			fid.close()
 
-if __name__ == '__main__':
-	print "Parent process {pid}".format(pid=os.getpid())
-	p=Pool(4)
-	for i in range(5):
-		p.apply_async(do_task, args=(i,))
-	p.close()
-	p.join()
-	print('All subprocesses donw')
+
+def test():
+	create_project('diujuzi')
 
 
-```
+if __name__ == "__main__":
+	args = sys.argv
 
-### 示例2
-```python
-from multiprocessing import Process, Queue
-import os, time, random
+	if len(sys.argv) <= 1:
+		test()
+	else:
+		project_name = sys.argv[1]
+		create_project(project_name)
 
-# 写数据进程执行的代码:
-def write(q):
-    print('Process to write: %s' % os.getpid())
-    for value in ['A', 'B', 'C']:
-        print('Put %s to queue...' % value)
-        q.put(value)
-        time.sleep(random.random())
 
-# 读数据进程执行的代码:
-def read(q):
-    print('Process to read: %s' % os.getpid())
-    while True:
-        value = q.get(True)
-        print('Get %s from queue.' % value)
 
-if __name__=='__main__':
-    # 父进程创建Queue，并传给各个子进程：
-    q = Queue()
-    pw = Process(target=write, args=(q,))
-    pr = Process(target=read, args=(q,))
-    # 启动子进程pw，写入:
-    pw.start()
-    # 启动子进程pr，读取:
-    pr.start()
-    # 等待pw结束:
-    pw.join()
-    # pr进程里是死循环，无法等待其结束，只能强行终止:
-    pr.terminate()
+
 ```
