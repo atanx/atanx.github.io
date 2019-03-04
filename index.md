@@ -23,7 +23,10 @@ title: 江斌的个人博客
 
 联系方式：
 
-Weibo：蜀山掌门
-Email: 07jiangbin@163.com
-QQ: 365039667
+```
+ Weibo：蜀山掌门
+ Email: 07jiangbin@163.com
+ QQ: 365039667
+```
+
 ---
