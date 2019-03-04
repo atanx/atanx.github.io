@@ -1,6 +1,6 @@
 # Site settings
-title: Bobby的个人博客
-email: zhangbo0909@foxmail.com
+title: 江斌的个人博客
+email: 07jiangbin@163.com
 description: > #Bobby的实验室
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dontstay.github.io/index.html" # the base hostname & protocol for your site
@@ -33,11 +33,11 @@ favicon: /assets/image/favicon.ico
 
 # 博客作者相关
 author:
-  name: Bobby
-  email: bobby@foxmail.com
-  link: http://dontstay.github.io/
-  github: https://github.com/dontstay
-  github_username: dontstay
+  name: 江斌
+  email: 07jiangbin@163.com
+  link: https://atanx.github.io/
+  github: https://github.com/atanx
+  github_username: atanx
 
 
 locals:
