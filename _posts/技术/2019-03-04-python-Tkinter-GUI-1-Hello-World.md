@@ -1,9 +1,11 @@
 ---
 layout: post
-title: [Python]GUI界面开发-Tkinter基础(1)
+title: Python-GUI界面开发-Tkinter基础(1)
 description: Python Tkinter Helloword应用
 category: 技术
 ---
+
+
  # 基本GUI
 ```python
 #coding=utf-8
