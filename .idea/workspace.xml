@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d50990-2af6-4883-a25c-4304999dc6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/技术/2019-02-04-python-generate-powerpoint-ppt-file.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" afterPath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-Send-Mail-yagmail.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/技术/2019-03-04-python-jieba.md" afterPath="$PROJECT_DIR$/_posts/技术/2017-03-04-python-jieba.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,7 +80,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -313,7 +310,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551673074773</updated>
-      <workItem from="1551674276380" duration="11576000" />
+      <workItem from="1551674276380" duration="11583000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1551674364649</created>
@@ -525,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551686632770</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="增加">
+      <created>1551686769675</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551686769676</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11576000" />
+    <option name="totallyTimeSpent" value="11583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -888,7 +892,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
