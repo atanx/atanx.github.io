@@ -5,6 +5,13 @@ description:  Python-使用pptx合成pptx文件
 category: 技术
 ---
 
+python合成powerpoint文件所使用的库为`python-pptx`
+可以通过pip进行安装。
+更多介绍详见。[官方文档](https://python-pptx.readthedocs.io/en/latest/index.html)
+```
+pip install python-pptx
+```
+
 # Demo1
 
 ```python
