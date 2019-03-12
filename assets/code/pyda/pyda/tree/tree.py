@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from ..ch07.linked_queue import LinkedQueue
+from ..queue.linked_queue import LinkedQueue
 import collections
 
 
@@ -27,7 +27,7 @@ class Tree(object):
 	"""Abstract base class representing a tree structure."""
 
 	# ------------------------------- nested Position class -------------------------------
-	class Position:
+	class Position(object):
 		"""An abstraction representing the location of a single element within a tree.
 
 		Note that two position instaces may represent the same inherent location in a tree.

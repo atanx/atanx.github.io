@@ -1,3 +1,5 @@
+# coding=utf8
+#
 # Copyright 2013, Michael H. Goldwasser
 #
 # Developed for use with the book:
@@ -18,6 +20,10 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# BinaryTree是抽象类，不能直接实例化
+#
+
 
 from .tree import Tree
 
@@ -79,5 +85,3 @@ class BinaryTree(Tree):
 	def positions(self):
 		"""Generate an iteration of the tree's positions."""
 		return self.inorder()  # make inorder the default
-
-

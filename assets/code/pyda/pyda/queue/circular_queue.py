@@ -27,7 +27,7 @@ class CircularQueue:
 
 	# ---------------------------------------------------------------------------------
 	# nested _Node class
-	class _Node:
+	class _Node(object):
 		"""Lightweight, nonpublic class for storing a singly linked node."""
 		__slots__ = '_element', '_next'  # streamline memory usage
 

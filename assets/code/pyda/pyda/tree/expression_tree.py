@@ -123,7 +123,7 @@ def build_expression_tree(tokens):
 			op = S.pop()  # operator symbol
 			left = S.pop()  # left subtree
 			S.append(ExpressionTree(op, left, right))  # repush tree
-			# we ignore a left parenthesis
+		# we ignore a left parenthesis
 	return S.pop()
 
 

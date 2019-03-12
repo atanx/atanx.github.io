@@ -26,7 +26,7 @@ class LinkedBinaryTree(BinaryTree):
 	"""Linked representation of a binary tree structure."""
 
 	# -------------------------- nested _Node class --------------------------
-	class _Node:
+	class _Node(object):
 		"""Lightweight, nonpublic class for storing a node."""
 		__slots__ = '_element', '_parent', '_left', '_right'  # streamline memory usage
 
