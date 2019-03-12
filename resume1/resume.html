@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://www.swiper.com.cn/demo/030-pagination.html -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>xx</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./static/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        html, body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            /*text-align: center;*/
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        .content {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-center {
+            justify-content: center;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .slide-1 {
+            color: black;
+            background-blend-mode: color-dodge;
+            background-image: url(./static/images/bg-1.jpg);
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.8);
+
+        }
+
+        .slide-2 {
+            color: black;
+            background-blend-mode: color-dodge;
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .slide-3 {
+            color: white;
+            background-color: #55b4d4;
+            background: linear-gradient(45deg, #55b4d4, #0f7699);
+        }
+
+        .contack-link {
+            text-decoration: none;
+            color: #5f9ea0;
+        }
+
+        .project-title {
+            margin-top: 20px;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .highligh {
+            color: #D05;
+            white-space: nowrap;
+            padding: 0 4px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background: #fafafa;
+        }
+    </style>
+</head>
+<!--<div class="swiper-slide" style="background-color:#efefef;width: 882px;">教育背景</div>
+background-image: url('./static/images/bg-1.png')
+-->
+<body style="">
+<!-- Swiper -->
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide-1 flex-center align-items-center">
+            <div><h1>江斌</h1></div>
+            <div>
+                <p>工作项目以及个人项目</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide slide-3 flex-center align-items-center">
+            <h1>工作项目</h1>
+
+        </div>
+        <div class="swiper-slide">
+            <div class="content">
+                <img src="static/images/dsp0.jpg" style="width: 100%; align-self: center;"/>
+                <div class="project-title">优向DSP</div>
+                <div>
+                    <p>
+                        <strong>系统简介：</strong> &nbsp;&nbsp;房地产垂直领域广告精准投放系统
+                    </p>
+                    <p>
+                        <strong>角色：</strong> &nbsp;&nbsp;数据分析师
+                    </p>
+                    <p>
+                        <strong>职责：</strong>&nbsp;&nbsp;基于海量竞价日志数据开发了投放优化算法和反作弊算法。投放优化算法有两大特点：一是采用基于爬虫系统的黑白名单机制对
+                        投放站点进行分类过滤； 二是基于人群画像对不同人群分类提供竞价分类依据。反作弊算法主要对着陆页日志进行分析识别
+                        恶意点击，无效点击提供线索质量。
+                    </p>
+                    <p>
+                        <strong>项目技术栈：</strong>项目采用<span class="highligh">HDFS</span>分布式系统存储海量日志数据，经结构化后使用<span
+                            class="highligh">Hive</span>/
+                        <span class="highligh">Impala</span>进行查询结构化，
+                        使用<span class="highligh">Kylin</span>作为分析平台。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--<div class="swiper-slide">2. 基于python爬虫系统楼盘号码Hbase。</div>-->
+        <div class="swiper-slide">
+            <div class="content">
+                <img src="static/images/bi.png" style="width: 100%; align-self: center;"/>
+                <div class="project-title">博加BI项目</div>
+                <p><strong>系统简介：数据项目。博加BI是一个可视化。</strong></p>
+                <p><strong>角色：</strong>主要开发者</p>
+                <p><strong>职责：</strong>参与核心功能开发， 业务数据分析，数据可视化呈现。</p>
+                <p><strong>技术栈：</strong>
+                    <span class="highligh">python</span>(
+                    <span class="highligh">pandas</span>,
+                    <span class="highligh">numpy</span>)
+                    +  <span class="highligh">Java</span>
+                    +  <span class="highligh">javascript</span>(
+                    <span class="highligh">echarts</span>)
+                    。</p>
+
+                <!--
+                4. 找灵感 slogan,金句 人工智能：TensorFlow, fasttext
+                -->
+            </div>
+
+        </div>
+        <div class="swiper-slide">
+            <div class="content">
+                <img src="static/images/plusask.png" style="width: 100%; align-self: center;"/>
+                <div class="project-title">博加问答项目</div>
+                <p><strong>项目简介：</strong>WEB项目。博加问答是一个公司内部问答系统，用户可以在此提问回答，知识分享。</p>
+                <p><strong>角色：</strong>项目负责人</p>
+                <p><strong>职责：</strong>采用开源框架，根据需求扩展功能，开发了微信分享，求助专家的多项实用功能。</p>
+                <p><strong>技术栈：</strong> <span class="highligh">php</span>(<span class="highligh">laravel</span>)
+                    +  <span class="highligh">javascript</span> + <span class="highligh">mysql</span>
+                </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="content">
+                <img src="static/images/hr.png" style="width: 100%; align-self: center;"/>
+                <div class="project-title">博加招聘项目</div>
+                <p><strong>系统简介：</strong>为公司人事部门开发的招聘系统，提供面试人员扫码填写简历，面试官面试结果，实现信息化管理。</p>
+                <p><strong>角色：</strong>项目负责人</p>
+                <p><strong>职责：</strong>讨论确定需求，全栈开发，极大的降低了人事部门信息录入的工作，该项目同时为面试官提供了面试题库，税前工资
+                    税后工资转换等实用功能。</p>
+                <p><strong>技术栈：</strong> <span class="highligh">php</span>(<span class="highligh">laravel</span>)
+                    + <span class="highligh">javascript</span> + <span class="highligh">mysql</span>
+                </p>
+            </div>
+            <!--http://plusask.plus-planning.com/-->
+        </div>
+        <div class="swiper-slide">
+            <div class="content">
+                <img src="static/images/wenan.png" style="width: 100%; align-self: center;"/>
+                <div class="project-title">博加找文案项目</div>
+                <p><strong>系统简介：</strong>为公司文案提供检索、在线预览、下载office文档的功能。</p>
+                <p><strong>角色：</strong>项目负责人</p>
+                <p><strong>职责：</strong>讨论确定需求，全栈开发实现所需功能。</p>
+                <p><strong>技术栈：</strong> <span class="highligh">php</span>(<span class="highligh">laravel</span>)
+                    + <span class="highligh">javascript</span>(<span class="highligh">jquery</span>, <span
+                            class="highligh">vue</span>) + <span class="highligh">mysql</span>
+                </p>
+            </div>
+        </div>
+
+        <!--<div class="swiper-slide">-->
+            <!--<div class="content">-->
+                <!--<div class="project-title">博加找设计项目</div>-->
+                <!--<p><strong>系统简介：</strong>为公司设计师提供快速</p>-->
+                <!--<p><strong>系统架构：</strong>python + vue.js + java</p>-->
+                <!--<p><strong>角色：</strong>项目负责人</p>-->
+                <!--<p><strong>职责：</strong>讨论确定需求，协调开发人员，提供数据支撑，主导项目开发进度。</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div class="swiper-slide slide-3 flex-center align-items-center">
+            <h1>个人项目</h1>
+        </div>
+        <div class="swiper-slide ">
+
+            <div class="content">
+                <!--<div class="project-title">电影爬虫</div>-->
+                <!--<p><strong>系统简介：</strong>为公司设计师提供快速</p>-->
+                <!--<p><strong>系统架构：</strong>python + vue.js + java</p>-->
+                <!--<p><strong>角色：</strong>项目负责人</p>-->
+                <!--<p><strong>职责：</strong>讨论确定需求，协调开发人员，提供数据支撑，主导项目开发进度。</p>-->
+
+                <div class="project-title">股票插件</div>
+                <p><strong>系统简介：</strong>为公司设计师提供快速</p>
+                <p><strong>系统架构：</strong>python + vue.js + java</p>
+                <p><strong>角色：</strong>项目负责人</p>
+                <p><strong>职责：</strong>讨论确定需求，协调开发人员，提供数据支撑，主导项目开发进度。</p>
+
+                <div class="project-title">二维码插件</div>
+                <p><strong>系统简介：</strong>为公司设计师提供快速</p>
+                <p><strong>系统架构：</strong>python + vue.js + java</p>
+                <p><strong>角色：</strong>项目负责人</p>
+                <p><strong>职责：</strong>讨论确定需求，协调开发人员，提供数据支撑，主导项目开发进度。</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide ">
+            技术栈（数据分析，数据可视化（echarts.js, matlab），后端，前端，设计）
+            mysql mongodb hive hbase
+        </div>
+
+        <div class="swiper-slide flex-center align-items-center" style="line-height: 200%;">
+            <div class="content align-items-center">
+                <div><h2>联系方式</h2></div>
+                <div><a class="contack-link" href="tel:13127786357">131-2778-6357</a></div>
+                <div><a class="contack-link" href="mailto:07jiangbin@163.com">07jiangbin@163.com</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+<!-- Swiper JS -->
+<script src="./static/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+
+
+</body>
+</html>
