@@ -50,5 +50,4 @@ category: 思考
 
 当你对问题有了很好的描述，并且确切地知道想要什么，然后再去学习一门编程语言来解决这个问题就变得很容易了。
 
-英文原文
-https://medium.com/datadriveninvestor/dont-learn-a-programming-language-solve-a-problem-instead-654f6bbfb573
+[英文原文](https://medium.com/datadriveninvestor/dont-learn-a-programming-language-solve-a-problem-instead-654f6bbfb573)
