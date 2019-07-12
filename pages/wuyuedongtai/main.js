@@ -216,13 +216,13 @@ setInterval(function () {
 
 setInterval(function () {
     secondFlag = !secondFlag
-    // $('#clock-sep').css('color', secondFlag ? 'white' : 'black')
-    if (secondFlag) {
-        $('#clock-sep').hide()
-    }
-    else {
-        $("#clock-sep").show()
-    }
+    $('#clock-sep').css('color', secondFlag ? 'white' : 'black')
+    // if (secondFlag) {
+    //     $('#clock-sep').hide()
+    // }
+    // else {
+    //     $("#clock-sep").show()
+    // }
 
 }, 500);
 
