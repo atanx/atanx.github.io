@@ -216,7 +216,7 @@ setInterval(function () {
 
 setInterval(function () {
     secondFlag = !secondFlag
-    $('#clock-sep').css('color', secondFlag ? 'white' : 'black')
+    $('#clock-sep').css('color', secondFlag ? 'white' : '#1d1819')
     // if (secondFlag) {
     //     $('#clock-sep').hide()
     // }
