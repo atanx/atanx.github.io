@@ -230,7 +230,7 @@ var resize = function () {
     var fontSize = 16 / 375 * width;
     var fontSize = fontSize.toFixed(0) + 'px';
 
-    //$('html').css('font-size', fontSize);
+    $('html').css('font-size', fontSize);
 };
 resize();
 $(window).resize(
