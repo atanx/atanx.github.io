@@ -214,17 +214,17 @@ setInterval(function () {
     $("#minute").html(moment().format("mm"))
 }, 1000);
 
-setInterval(function () {
-    secondFlag = !secondFlag
-    $('#clock-sep').css('color', secondFlag ? 'white' : '#1d1819')
-    // if (secondFlag) {
-    //     $('#clock-sep').hide()
-    // }
-    // else {
-    //     $("#clock-sep").show()
-    // }
+// setInterval(function () {
+//     secondFlag = !secondFlag
+//     $('#clock-sep').css('color', secondFlag ? 'white' : '#1d1819')
+//     // if (secondFlag) {
+//     //     $('#clock-sep').hide()
+//     // }
+//     // else {
+//     //     $("#clock-sep").show()
+//     // }
 
-}, 500);
+// }, 500);
 
 
 
