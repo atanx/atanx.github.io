@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>新城吾悦广场-东台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            position: absolute;
+            margin: 0px;
+            background-color: #1d1819;
+            width: 100%;
+            height: 100%;
+        }
+
+        body p {
+            margin: 0px;
+        }
+
+
+        #index {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            font-size: 36px;
+            height: 100%;
+        }
+
+        .datetime-item {
+            line-height: 1.8;
+            text-align: center;
+            color: white;
+        }
+
+        .time {
+            margin-left: 120px;
+        }
+
+        .index-item {
+            text-align: center;
+            color: #fff;
+        }
+
+        .font-size-2-5 {
+            font-size: 2.5rem;
+        }
+
+        .font-size-2 {
+            font-size: 2rem;
+        }
+
+        .font-size-1-5 {
+            font-size: 1.5rem;
+        }
+
+        #amountUnit {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .hide {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='index'>
+        <div class="datetime-item font-size-2-5">
+            <div class="year" id='year'>----年--月--日</div>
+            <div class="week">
+                <span class="weeknum" id='weeknum'>星期*</span>
+                <span class="time" id='time'>
+                    <span id='hour'>-</span><span id="clock-sep">:</span><span id="minute">-</span></span>
+            </div>
+        </div>
+        <div class="index-item">
+            <p class="font-size-2">吾悦广场进驻城市</p>
+            <p><span id="cityCnt" class="font-size-2-5"></span>
+                <span class='font-size-1-5'>个</span>
+            </p>
+        </div>
+        <div class="index-item">
+            <p class="font-size-1-5">已开业及在建吾悦广场</p>
+            <p>
+                <span id="totalCnt" class='font-size-2-5'>
+                </span>
+                <span class='font-size-1-5'>座</span>
+            </p>
+        </div>
+    </div>
+
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./moment.min.js"></script>
+    <script src="./config.js"></script>
+    <script src="./utils.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
