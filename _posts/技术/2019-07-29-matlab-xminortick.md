@@ -6,7 +6,7 @@ category: 技术
 ---
 
 # MATLAB显示短刻度
-![](https://atanx.github.io/images/matlab/matlab-xminortick.png)
+![图片](https://atanx.github.io/images/matlab/matlab-xminortick.png)
 
 ```matlab
 >> a = 0:.1:20;
