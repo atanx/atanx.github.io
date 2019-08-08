@@ -26,6 +26,7 @@ end
 ```
 
 3. 在matlab命令行窗口调用包中的函数。
+
 ```matlab
 test.method1() % 返回: 这是method1
 
