@@ -11,22 +11,24 @@ category: 技术
 
 1. 在matlab工作目录中创建一个文件夹`+test`
 2. 在`+test`中创建一下两个文件。
-```matlab
+
+```
 % method1.m
 function method1()
     disp 这是method1;
 end
 ```
 
-```matlab
+```
 % method2.m
 function method2()
     disp 这是method2;
 end
 ```
 
-3. 在matlab命令行窗口调用包中的函数。
-```matlab
+1. 在matlab命令行窗口调用包中的函数。
+   
+```
 >>> test.method1() % 返回: 这是method1
 
 >>> test.method2() % 返回: 这是method2
@@ -37,7 +39,7 @@ end
 
 将下面代码保存在工作目录中。运行自动创建测试上述包。
 
-```matlab
+``` 
 % 测试matlab包
 % test_package.m
 
