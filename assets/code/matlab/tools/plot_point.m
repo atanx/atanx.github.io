@@ -4,6 +4,5 @@ function plot_point(obj, event)
     p = p(1, 1:2);
     points = [get(gca, 'userData'); p];
     plot(points(:,1), points(:,2), 'ro-');
-    set(gca,'userdata', points);
-    
+    set(gca,'userdata', points); 
 end

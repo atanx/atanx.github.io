@@ -9,10 +9,12 @@ function mousemotion(obj, eventdata)
         return
         
     end
+    %% 寻找最近的点
     distances = (points(:,1)-cpoint(1)).^2 + (points(:,2)-cpoint(2)).^2;
     [dsquare, idx] = min(distances);
     nearest = points(idx, :);
     
+    %% 高亮最近的点
     info = sprintf('x=%.4f,y=%.4f', nearest(1), nearest(2));
     h = findobj(obj, 'tag', 'highlight');
     htext = findobj(obj,'tag','highlighttext');
@@ -23,13 +25,12 @@ function mousemotion(obj, eventdata)
         h.YData = nearest(2);
     end
     
+    %% 增加最近点的提示信息
     if isempty(htext) 
         text(nearest(1), nearest(2), info, 'tag', 'highlighttext');
     else
         htext.Position = nearest;
         htext.String = info;
-    end
-        
-    %disp(eventdata.Source.CurrentPoint);
+    end 
     
 end
