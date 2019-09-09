@@ -1,7 +1,7 @@
 ﻿var params = {
     plazaCnt: "50余城70余座",   //广场数
     cityCnt: 97,
-    totalCnt: 118, // 在业项目数
+    totalCnt: 119, // 在业项目数
     inServiceCnt: 46, // 已开业吾悦广场
     cumCustomerCntInit: '-', //累计数起始值
     rtCustomerCntInit: '-', // 实时数起始值

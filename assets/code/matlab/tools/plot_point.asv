@@ -1,6 +1,0 @@
-function plot_point(obj, event)
-    hold on 
-    p = get(gca,'currentPoint');
-    plot(p(1), p, 'ro');
-    
-end
