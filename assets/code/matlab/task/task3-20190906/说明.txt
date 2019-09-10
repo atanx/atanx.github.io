@@ -1,0 +1,6 @@
+程序结构：
+    入口： progect.m
+                get_shortest.m 计算最短距离
+                    pin.m        绘制针齿
+           
+            test_main.m  % 测试get_shortest.m，可不用看

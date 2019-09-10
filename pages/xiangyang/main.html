@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>襄阳-新城吾悦广场</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            position: absolute;
+            margin: 0px;
+            background-color: #1d1819;
+            width: 100%;
+            height: 100%;
+        }
+
+        body p {
+            margin: 0px;
+        }
+
+
+        #index {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            font-size: 36px;
+            height: 100%;
+        }
+
+
+        .time {
+            margin-left: 120px;
+        }
+
+        .index-item {
+            text-align: center;
+            color: #fff;
+        }
+
+
+
+        #amountUnit {
+            text-align: center;
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        .hide {
+            display: none !important;
+        }
+
+
+        .wuyue-logo {
+            z-index: -1;
+            width: 70%;
+            margin-top: -10%;
+        }
+
+
+        .datetime {
+            line-height: 1.8;
+            text-align: center;
+            color: white;
+            margin-top: -10%;
+        }
+
+        #clock-sep-war {
+            width: 20px;
+        }
+
+        .item2 {
+            margin-top: 0%;
+        }
+
+        .item3 {
+            margin-bottom: 0%;
+        }
+
+        .font-size-2-5 {
+            font-size: 2.5rem;
+        }
+
+        .font-size-2 {
+            font-size: 2rem;
+        }
+
+        .font-size-1-5 {
+            font-size: 1.5rem;
+        }
+
+        .font-size-1 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='index'>
+
+        <div class="index-item " data-name="logo">
+            <img class='wuyue-logo' src='logo2.svg'>
+        </div>
+        <div class="index-item datetime font-size-1-5">
+            <div class="year"><span id='year'>----年--月--日</span></div>
+            <div class="week">
+                <span class="weeknum" id='weeknum'>星期*</span>
+                <span class="time" id='time'>
+                    <span id='hour'>-</span> <span id="clock-sep">:</span> <span id="minute">-</span></span>
+            </div>
+        </div>
+        <div class="index-item">
+            <p class="font-size-1-5">吾悦广场进驻城市</p>
+            <p><span id="cityCnt" class="font-size-2-5"></span>
+                <span class='font-size-1'>个</span>
+            </p>
+        </div>
+
+
+        <div class="index-item item2">
+            <p class="font-size-1-5">已开业及在建吾悦广场</p>
+            <p>
+                <span id="totalCnt" class='font-size-2-5'>
+                </span>
+                <span class='font-size'>座</span>
+            </p>
+        </div>
+
+
+        <div class="index-item item3">
+            <p class="font-size-1-5">已开业吾悦广场</p>
+            <p><span id="inServiceCnt" class="font-size-2-5"></span>
+                <span class='font-size-1'>座</span>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./moment.min.js"></script>
+    <script src="./config.js?ver=1.04"></script>
+    <script src="./utils.js?ver=1.04"></script>
+    <script src="./main.js?ver=1.0.4"></script>
+</body>
+
+</html>

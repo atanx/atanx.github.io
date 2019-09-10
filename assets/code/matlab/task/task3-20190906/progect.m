@@ -1,5 +1,5 @@
 %任务描述，快速寻找摆线轮（曲线）与各个针齿中心（圆心）之间的最小的距离
-
+tic
 %% 已知参数
 N_pins=40;                  %针齿数变量
 rp=0.128/2;                 %针轮中心圆半径
@@ -12,6 +12,7 @@ drrp=-0.00000;               %等距修形
 drp=-0.00000;               %移距修形
 dsi=0;                       %转角修形
 %% 摆线方程：
+rng(1.1); % 随机数种子，确保后续随机数复现
 ti=0:0.01:2*(zp-1)*pi;                                                     %自变量角度
 fi=(1+k1^2-2*k1*cos(ti)).^(-1/2);
 x_baixian=(rp+drp-(rrp+drrp).*fi).*cos((1-ih).*ti-dsi)-(er-k1*(rrp+drrp).*fi).*cos(ih.*ti+dsi)+er;   %x坐标方程
@@ -46,7 +47,7 @@ for i=1:N_pins
     y_pin11=(rp+error_pin_length(i))*sin(theta_rp11)+error_center_location*sin(error_center_location_angle);                %针齿中心y坐标方程
     
     %% 重点注释2：计算每一个针齿距离摆线的最短路径信息, 并绘图
-    pin_distances_objs{i} = get_shortest([x_pin11, y_pin11, rrp], curve, 0, 2*(zp-1)*pi, 1e-8, true); 
+    pin_distances_objs{i} = get_shortest([x_pin11, y_pin11, rrp], curve, 0, 2*(zp-1)*pi, 1e-8, false); 
 end
 
 distances = cellfun(@(x)x.min_distance, pin_distances_objs);   % 注释3：从cell数组对象中提取每一个针齿距离摆线的最短距离，distances是一个1*N_points的矩阵
@@ -67,5 +68,6 @@ for i = 1:N_pins
 end
 %%
 
+toc
 %最后，绘制出摆线轮曲线和各个针齿图，并获得和标记出摆线轮曲线上距离各个针齿中心距离最近的坐标值
 %要求计算效率越高越好，精度误差控制在1微米以下，10^-7
