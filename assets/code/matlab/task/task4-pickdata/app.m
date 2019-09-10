@@ -87,8 +87,8 @@ ymax = str2double(handles.ymax.String);
  Xlim = get(handles.axes1, 'xlim');
  Ylim = get(handles.axes1, 'ylim');
  
- xfun = @(x)( (xmax-xmin)/(Xlim(2)-Xlim(1)) * x + xmin);
- yfun = @(y)( (ymax-ymin)/(Ylim(2)-Ylim(1)) * y + ymin);
+ xfun = @(x)( (x-Xlim(1))/(Xlim(2)-Xlim(1)) * (xmax-xmin) + xmin);
+ yfun = @(y)( (y-Ylim(1))/(Ylim(2)-Ylim(1)) * (ymax-ymin) + ymin);
  
  newpoints = zeros(size(points));
  for i = 1:size(points, 1)
@@ -100,12 +100,10 @@ ymax = str2double(handles.ymax.String);
  disp([Xlim, Ylim]);
  
  points = num2str(newpoints);
- points = [points 10*ones(size(points,1),1)];
- points = points';
- points = points(:)';
-line_str = sprintf('line_data = [%s];', points);
+line_str = sprintf('line_data = [%s];', char2string(points));
 old_str = handles.editScript.String;
-handles.editScript.String =[old_str sprintf('\n') line_str];
+old_str = char2string(old_str);
+handles.editScript.String =[old_str newline line_str];
 guidata(hObject, handles);
 
 function editScript_Callback(hObject, eventdata, handles)
@@ -239,13 +237,15 @@ function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-append_script = ['plot(line_data(:1), line_data(:,2),''r-*'')\n',...
-     'plot(line_data(:1), line_data(:,2),''r-*'')\n',...
-     'plot(line_data(:1), line_data(:,2),''r-*'')\n',...
-     'plot(line_data(:1), line_data(:,2),''r-*'')\n',...
-     'plot(line_data(:1), line_data(:,2),''r-*'')\n',...
-     'legend('''', '''','''','''','''','''')\n'];
-editScript = [handles.editScript.String, append_script];
+append_script = ['plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
+     'plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
+     'plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
+     'plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
+     'plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
+     'legend('''', '''','''','''','''','''')' newline];
+ old_str = handles.editScript.String;
+ old_str = char2string(old_str);
+editScript = [old_str, append_script];
 [f, p] = uiputfile('*.m');
 fullfile = [p f];
 fid = fopen(fullfile, 'w+');
