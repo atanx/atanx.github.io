@@ -22,7 +22,7 @@ function varargout = app(varargin)
 
 % Edit the above text to modify the response to help app
 
-% Last Modified by GUIDE v2.5 10-Sep-2019 19:29:23
+% Last Modified by GUIDE v2.5 11-Sep-2019 09:59:34
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -225,8 +225,11 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-[f p] = uigetfile();
+[f, p] = uigetfile('*.*');
 filename = [p f];
+if(isempty(filename))
+    return
+end
 handles.image_path = filename; 
 imshow(filename, 'parent', handles.axes1);
 guidata(hObject, handles);
@@ -246,10 +249,20 @@ append_script = ['plot(line_data(:1), line_data(:,2),''r-*'')' newline,...
  old_str = handles.editScript.String;
  old_str = char2string(old_str);
 editScript = [old_str, append_script];
+
+handles.editScript.String = editScript;
+guidata(hObject, handles);
+
+
+% --- Executes on button press in pushbutton4.
+function pushbutton4_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+old_str = handles.editScript.String;
+ old_str = char2string(old_str);
 [f, p] = uiputfile('*.m');
 fullfile = [p f];
 fid = fopen(fullfile, 'w+');
-fwrite(fid, editScript);
+fwrite(fid, old_str);
 fclose(fid);
-handles.editScript.String = editScript;
-guidata(hObject, handles);
