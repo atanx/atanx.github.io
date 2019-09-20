@@ -3,12 +3,7 @@ function mousemotion(obj, eventdata)
     %figurePosition = obj.Position;
     p = get(gca, 'currentpoint');
     cpoint = p(1,1:2);
-    lines = get(gca,'children');
-    X = [];
-    Y = [];
-    for i = 1:length(lines)
-            Xtemp = 
-    end
+    points = get(gca,'UserData');
     if isempty(points)
         
         return

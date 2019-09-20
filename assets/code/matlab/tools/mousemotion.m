@@ -3,11 +3,22 @@ function mousemotion(obj, eventdata)
     %figurePosition = obj.Position;
     p = get(gca, 'currentpoint');
     cpoint = p(1,1:2);
-    points = get(gca,'UserData');
-    if isempty(points)
-        
-        return
-        
+    lines = get(gca,'children');
+    X = [];
+    Y = [];
+    for i = 1:length(lines)
+        try
+            Xtemp = get(lines(i), 'XData');
+            Ytemp = get(lines(i), 'YData');
+            X = [X; Xtemp(:)];
+            Y = [Y; Ytemp(:)];
+        catch
+            
+        end
+    end
+    points = [X, Y];
+    if isempty(points) 
+        return 
     end
     %% 寻找最近的点
     distances = (points(:,1)-cpoint(1)).^2 + (points(:,2)-cpoint(2)).^2;
@@ -19,6 +30,7 @@ function mousemotion(obj, eventdata)
     h = findobj(obj, 'tag', 'highlight');
     htext = findobj(obj,'tag','highlighttext');
     if isempty(h)
+        hold on
         plot(nearest(1), nearest(2), 'ro', 'MarkerFaceColor', 'b', 'tag', 'highlight');
     else
         h.XData = nearest(1);

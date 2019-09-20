@@ -1,35 +1,35 @@
-function varargout = demo1(varargin)
-% DEMO1 MATLAB code for demo1.fig
-%      DEMO1, by itself, creates a new DEMO1 or raises the existing
+function varargout = media(varargin)
+% MEDIA MATLAB code for media.fig
+%      MEDIA, by itself, creates a new MEDIA or raises the existing
 %      singleton*.
 %
-%      H = DEMO1 returns the handle to a new DEMO1 or the handle to
+%      H = MEDIA returns the handle to a new MEDIA or the handle to
 %      the existing singleton*.
 %
-%      DEMO1('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in DEMO1.M with the given input arguments.
+%      MEDIA('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in MEDIA.M with the given input arguments.
 %
-%      DEMO1('Property','Value',...) creates a new DEMO1 or raises the
+%      MEDIA('Property','Value',...) creates a new MEDIA or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before demo1_OpeningFcn gets called.  An
+%      applied to the GUI before media_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to demo1_OpeningFcn via varargin.
+%      stop.  All inputs are passed to media_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help demo1
+% Edit the above text to modify the response to help media
 
-% Last Modified by GUIDE v2.5 30-Aug-2019 13:39:30
+% Last Modified by GUIDE v2.5 12-Sep-2019 11:32:17
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @demo1_OpeningFcn, ...
-                   'gui_OutputFcn',  @demo1_OutputFcn, ...
+                   'gui_OpeningFcn', @media_OpeningFcn, ...
+                   'gui_OutputFcn',  @media_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,26 +44,26 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before demo1 is made visible.
-function demo1_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before media is made visible.
+function media_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to demo1 (see VARARGIN)
+% varargin   command line arguments to media (see VARARGIN)
 
-% Choose default command line output for demo1
+% Choose default command line output for media
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes demo1 wait for user response (see UIRESUME)
+% UIWAIT makes media wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = demo1_OutputFcn(hObject, eventdata, handles) 
+function varargout = media_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -71,17 +71,3 @@ function varargout = demo1_OutputFcn(hObject, eventdata, handles)
 
 % Get default command line output from handles structure
 varargout{1} = handles.output;
-
-
-% --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-    % h = mydialog;
-    h = calc;
-    disp(h);
-    if(~ishandle(h)) 
-        set(handles.text2,'string', num2str(h));
-    end
-    
