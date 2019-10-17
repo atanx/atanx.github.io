@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-17T07:28:41.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="9eaYfiFsMeLTmUuRgQNS" version="12.1.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-17T07:31:11.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="U7asPoC8c2QPSe3KCP-y" version="12.1.2" type="github" pages="1">
   <diagram id="v0aDKgJK21_tez0SBdlP" name="Page-1">
     <mxGraphModel dx="1302" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,14 +10,29 @@
         <mxCell id="4lSk_yB9vL9-ZRo8prOx-2" value="gui" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90" y="320" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4lSk_yB9vL9-ZRo8prOx-3" value="培训" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-3" value="培训" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="290" y="210" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4lSk_yB9vL9-ZRo8prOx-4" value="视频教程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-4" value="视频教程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="290" y="300" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="4lSk_yB9vL9-ZRo8prOx-6" value="书籍" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="290" y="390" width="120" height="60" as="geometry"/>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-6" value="书籍" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-7" value="短视频" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-8" value="咸鱼" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-9" value="工具" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-11" value="图片下载" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4lSk_yB9vL9-ZRo8prOx-12" value="python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
