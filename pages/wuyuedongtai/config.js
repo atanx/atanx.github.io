@@ -2,7 +2,7 @@
     plazaCnt: "50余城70余座",   //广场数
     cityCnt: 98,
     totalCnt: 120, // 在业项目数
-    inServiceCnt: 51, // 已开业吾悦广场
+    inServiceCnt: 55, // 已开业吾悦广场 modified at: 2019.11.26
     cumCustomerCntInit: '-', //累计数起始值
     rtCustomerCntInit: '-', // 实时数起始值
     amount: '-', //消费金额起始值
