@@ -1,9 +1,9 @@
-<mxfile host="www.draw.io" modified="2020-01-07T06:23:54.111Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="P9oJsY91n5qN4KubnHWk" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T06:25:26.760Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="QUZP_jMYZk_v9slffpoi" version="12.4.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3293" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" style="locked=1;" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
         <mxCell id="mCshl-u1__34je2gvI0m-0" value="okra" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-560" y="40" width="80" height="40" as="geometry"/>
         </mxCell>
@@ -191,6 +191,9 @@
           <mxGeometry x="480" y="370" width="110" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="mCshl-u1__34je2gvI0m-75" value="detail" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+        <mxCell id="mCshl-u1__34je2gvI0m-126" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-family: &amp;#34;source code pro&amp;#34; ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 20px ; white-space: nowrap&quot;&gt;Okra&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mCshl-u1__34je2gvI0m-75">
+          <mxGeometry x="330" y="220" width="100" height="70" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
