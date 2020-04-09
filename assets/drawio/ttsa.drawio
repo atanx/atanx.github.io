@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-09T03:03:07.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rXbrRSuyTpgpJO362DOz" version="12.8.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-09T03:05:32.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7-7cXsWYEJNq3Ub406Ps" version="12.8.8" type="github" pages="4">
   <diagram id="ZZfOL2nvoQY2b5dwmiEl" name="online">
     <mxGraphModel dx="2610" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,10 +705,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BYKoFwIXA3gNahuXoZHv" name="ttsa_offline">
-    <mxGraphModel dx="4167" dy="3964" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4890" dy="3206" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WfP3hAZn26pH0YZRmXr3-0" />
         <mxCell id="WfP3hAZn26pH0YZRmXr3-1" parent="WfP3hAZn26pH0YZRmXr3-0" />
+        <mxCell id="fDuobqkH7XsZF2yQ3IGD-230" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;strokeColor=none;" vertex="1" parent="WfP3hAZn26pH0YZRmXr3-1">
+          <mxGeometry x="1492" y="-204" width="1738" height="1354" as="geometry" />
+        </mxCell>
+        <mxCell id="fDuobqkH7XsZF2yQ3IGD-231" value="&lt;font style=&quot;font-size: 60px&quot;&gt;ttsa_offline devops&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#808080;fontStyle=1" vertex="1" parent="WfP3hAZn26pH0YZRmXr3-1">
+          <mxGeometry x="1899.46" y="-178" width="892" height="94" as="geometry" />
+        </mxCell>
         <mxCell id="fDuobqkH7XsZF2yQ3IGD-176" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;strokeColor=none;" vertex="1" parent="WfP3hAZn26pH0YZRmXr3-1">
           <mxGeometry x="-312" y="-126" width="1738" height="1354" as="geometry" />
         </mxCell>
