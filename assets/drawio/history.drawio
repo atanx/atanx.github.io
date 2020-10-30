@@ -1,6 +1,6 @@
-<mxfile modified="2020-10-30T03:23:57.712Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="AyGfdIJ6n0DgIq_tyR1F" version="13.7.9" type="github" pages="3">
+<mxfile modified="2020-10-30T03:28:37.163Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="zkLbVAuxnYMrCj1V0bbf" version="13.7.9" type="github" pages="3">
   <diagram id="B4h1iAgGutounkVAhYRp" name="history">
-    <mxGraphModel dx="4530" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5808" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="BBm1sS53cPZoSCzeiZzq-1" value="年代" style="" parent="0" />
@@ -376,34 +376,36 @@
           <mxGeometry x="5323.5" y="-995.5" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-16" value="孝文帝拓跋宏" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6463.5" y="32" width="90" height="30" as="geometry" />
+          <mxGeometry x="6460" y="10" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-17" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-14" target="YR14hARBbSJiE14njBP5-16" edge="1">
           <mxGeometry x="5323.5" y="-995.5" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-18" value="宣武帝元恪" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6465.5" y="-32" width="80" height="30" as="geometry" />
+          <mxGeometry x="6465.5" y="-67" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YR14hARBbSJiE14njBP5-19" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-16" target="YR14hARBbSJiE14njBP5-18" edge="1">
-          <mxGeometry x="5323.5" y="-995.5" as="geometry" />
+        <mxCell id="YR14hARBbSJiE14njBP5-19" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-16" target="YR14hARBbSJiE14njBP5-18" edge="1">
+          <mxGeometry x="5323.5" y="-1030.5" as="geometry">
+            <mxPoint x="6505.178571428571" y="-25" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-20" value="文景帝元愉" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6465.5" y="-85" width="80" height="30" as="geometry" />
+          <mxGeometry x="6465.5" y="-120" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-21" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-18" target="YR14hARBbSJiE14njBP5-20" edge="1">
-          <mxGeometry x="5323.5" y="-995.5" as="geometry" />
+          <mxGeometry x="5323.5" y="-1030.5" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-22" value="孝明帝元诩" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6587" y="-84.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="6587" y="-119.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-23" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-20" target="YR14hARBbSJiE14njBP5-22" edge="1">
-          <mxGeometry x="5288.5" y="-990" as="geometry" />
+          <mxGeometry x="5288.5" y="-1025" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-24" value="隐帝元法僧" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6587" y="-25" width="80" height="30" as="geometry" />
+          <mxGeometry x="6587" y="-60" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-25" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-22" target="YR14hARBbSJiE14njBP5-24" edge="1">
-          <mxGeometry x="5288.5" y="-990" as="geometry" />
+          <mxGeometry x="5288.5" y="-1025" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-26" value="少帝元钊" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
           <mxGeometry x="6587" y="34.5" width="80" height="30" as="geometry" />
@@ -442,28 +444,28 @@
           <mxGeometry x="6763" y="-938.5" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-38" value="节闵帝元恭" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6706" y="-26" width="80" height="30" as="geometry" />
+          <mxGeometry x="6706" y="-61" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-39" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-36" target="YR14hARBbSJiE14njBP5-38" edge="1">
           <mxGeometry x="6763" y="-938.5" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-40" value="顺文帝元朗" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6705.5" y="-85" width="80" height="30" as="geometry" />
+          <mxGeometry x="6705.5" y="-120" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-41" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-38" target="YR14hARBbSJiE14njBP5-40" edge="1">
-          <mxGeometry x="5238.5" y="-987" as="geometry" />
+          <mxGeometry x="5238.5" y="-1022" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-42" value="武穆帝元怀" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6815.5" y="-84.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="6815.5" y="-119.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-43" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-40" target="YR14hARBbSJiE14njBP5-42" edge="1">
-          <mxGeometry x="6857.5" y="-387" as="geometry" />
+          <mxGeometry x="6857.5" y="-422" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-44" value="出帝元修" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;comic=0;labelBackgroundColor=none;fontSize=9;fontColor=#000000;align=center;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
-          <mxGeometry x="6815.5" y="-32" width="80" height="30" as="geometry" />
+          <mxGeometry x="6815.5" y="-67" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-45" value="" style="dashed=1;startArrow=none;startFill=0;fontSize=9;fontColor=#000000;" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-42" target="YR14hARBbSJiE14njBP5-44" edge="1">
-          <mxGeometry x="6857.5" y="-387" as="geometry" />
+          <mxGeometry x="6857.5" y="-422" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-50" value="唐高祖—李渊" style="whiteSpace=wrap;html=1;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
           <mxGeometry x="7415" y="192" width="90" height="30" as="geometry" />
@@ -1668,6 +1670,12 @@
         </mxCell>
         <mxCell id="Xr7n47hqScDC3cydzjwK-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;齐愍王&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="2344.5" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FbsfA7zyDQ_CXdmDn68-1" value="太和" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FbsfA7zyDQ_CXdmDn68-3" value="&lt;font style=&quot;font-size: 8px&quot;&gt;延兴（471年）&lt;br&gt;承明（476年）&lt;br&gt;&lt;div&gt;&lt;span&gt;太和（477年）&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;labelBorderColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6452" y="46.5" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
