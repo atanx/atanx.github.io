@@ -1,6 +1,6 @@
-<mxfile modified="2020-10-30T05:59:47.774Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_tXOv16AGmyBqk9BMdut" version="13.7.9" type="github" pages="3">
+<mxfile modified="2020-11-09T05:41:27.349Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="pDzR8WKSwcQYiJmFKvim" version="13.9.2" type="github" pages="3">
   <diagram id="B4h1iAgGutounkVAhYRp" name="history">
-    <mxGraphModel dx="5211" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4960" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="BBm1sS53cPZoSCzeiZzq-1" value="年代" style="" parent="0" />
@@ -500,7 +500,7 @@
         <mxCell id="YR14hARBbSJiE14njBP5-60" value="" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-57" target="YR14hARBbSJiE14njBP5-59" edge="1">
           <mxGeometry x="6664" y="-844" as="geometry" />
         </mxCell>
-        <mxCell id="YR14hARBbSJiE14njBP5-61" value="唐玄宗—李隆" style="whiteSpace=wrap;html=1;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
+        <mxCell id="YR14hARBbSJiE14njBP5-61" value="唐玄宗—&lt;span style=&quot;color: rgb(247 , 49 , 49) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;李隆基&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="BBm1sS53cPZoSCzeiZzq-1" vertex="1">
           <mxGeometry x="7580" y="387" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YR14hARBbSJiE14njBP5-62" value="" parent="BBm1sS53cPZoSCzeiZzq-1" source="YR14hARBbSJiE14njBP5-59" target="YR14hARBbSJiE14njBP5-61" edge="1">
@@ -1364,7 +1364,7 @@
         <mxCell id="aPUkME7y7yC4_XbtxQYm-45" value="明&lt;br&gt;（&amp;nbsp;&lt;span&gt;1368年―1644&lt;/span&gt;&lt;span&gt;年&lt;/span&gt;）&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="10460" y="590" width="1510" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aPUkME7y7yC4_XbtxQYm-46" value="清&lt;br&gt;（ 年- 年）&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="aPUkME7y7yC4_XbtxQYm-46" value="清&lt;br&gt;（ 1636年- 1912年）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="11990" y="590" width="1490" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aPUkME7y7yC4_XbtxQYm-47" value="王阳明" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fontSize=16;arcSize=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -1579,7 +1579,7 @@
         <mxCell id="zDtLxDJx-mtVt5FpkuiB-15" value="北齐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="6721" y="436.5" width="70" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="zDtLxDJx-mtVt5FpkuiB-18" value="五代&lt;br&gt;（&amp;nbsp;&lt;span&gt;907年—979年&lt;/span&gt;）&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="zDtLxDJx-mtVt5FpkuiB-18" value="五代十国&lt;br&gt;（&amp;nbsp;&lt;span&gt;907年—979年&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="8430.5" y="582.5" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zDtLxDJx-mtVt5FpkuiB-19" value="后唐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -1671,10 +1671,10 @@
         <mxCell id="Xr7n47hqScDC3cydzjwK-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;齐愍王&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="2344.5" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2FbsfA7zyDQ_CXdmDn68-1" value="太和" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="2FbsfA7zyDQ_CXdmDn68-1" value="太和" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="6140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2FbsfA7zyDQ_CXdmDn68-3" value="&lt;font style=&quot;font-size: 8px&quot;&gt;延兴（471年）&lt;br&gt;承明（476年）&lt;br&gt;&lt;div&gt;&lt;span&gt;太和（477年）&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;labelBorderColor=#000000;" vertex="1" parent="1">
+        <mxCell id="2FbsfA7zyDQ_CXdmDn68-3" value="&lt;font style=&quot;font-size: 8px&quot;&gt;延兴（471年）&lt;br&gt;承明（476年）&lt;br&gt;&lt;div&gt;&lt;span&gt;太和（477年）&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;labelBorderColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="6452" y="46.5" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
