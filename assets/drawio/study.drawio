@@ -1,4 +1,4 @@
-<mxfile modified="2024-02-01T02:43:39.195Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="0QN1La8kndKktT17JKro" version="23.0.2" type="github" pages="7">
+<mxfile modified="2024-02-01T03:04:56.319Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="wKAERJYam5oJde7OTzoj" version="23.0.2" type="github" pages="7">
   <diagram id="UARHDE4A7T2oJiNUxsZq" name="1">
     <mxGraphModel dx="1631" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,6 +553,99 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-1" value="" style="shape=stencil(7VpLc5swEP41vnr0sHgcO2567KWHngnGNQ0BBpzXv69AvKQ1khCknWniycQgod1Pu9+uVsI7eqwvUZnsCIrqMomvO/p1R8hzVKXRfcabCe+5iEaCsbh/6e4REvf1tSoekpf0dO2eTPNLUqXXppfe7dAX/kzzR49xkedcSVrktdQz6efCojTnY9GrEIb2TKh56+7FXck1PCbXpJJa8+gxEQ3fRcOOfHPWhO00/XDQJM+o12vS9HO5Juym6W71nCy9tH5KloocZiQrsmXDatPZKpoxHT3ylrlAo8f7KH74VRVP+ekmPBHLcZEVFW8Q3626HaGo/eind06z7Pboc/vRj66aDDQmnF6ZmnBumw1r7DEza463qBKNOZrpCJNoUNfR8//ZfYrqSxldOQfzhpDdlfAFbyB6ZzajkxO/7i6m5LYjAGYyAYb7jgBEztfU0ws3O1JD/vPZTP7pQshBjwviQT8uS/Pkd5E2Rm6/2jGClMZxcVQ2WPl/21Ear3J7IrbIQ0qIYiVEe4d1HvIM7jd6qErqK49YM7534cCKBJgXeeJIHoNDoqy8RPxSfHfLvGkQ9/rlRkff/Vi0eWFRnoXUnAQqkmUYhLQpewbixyaJISMbvO6SkRcxRfWzC1c+mbIJU5IsS8u6gfaPFtP5StDzzmfPIP5mVjPQG05529XJqhj8SJTqKWNXnwdrGQX1qxsE5rA/sFa/KBNihVtMy91ehpwJNxCBnRJynBW1zhKrcu4yMwYyfn1WmrGBIsMU5qtmN1vFGTZLbqX8QlsuyfBztlSOyD6X542rfbr9uriMJeEGEafIwO8ach+RJYYDhXVb/HffJuBwg0ykyDCWF58c22KD58m7M7L3raqS+KkSYrAs55V0DGDDkcUr7SiOh9cxGGh7I3KJR4cn9Ccfc3gO/iC6h8QgJOaNAPqBh70CifhDS4/KdB4zh4oFI4ROujfaoEflM4AKUwUTBpjsCkEFUBAAMwV0r+DxwgH14DkErETHh7px1MDwv1h1ch7J2WU04DKDYYqACzENVJM1TcBmEwv1I5HqRuy74goUUMxTIB1uuBGQHROIyAnPYRA0IPJ8QHXsUcD1Cbd7bh0USIFjlsIsBHznuwkIy/fV+AOGAhGID45ZAfsUcsrzAKd8AvOCL6OigFDEc0YVKpB8SHOfwJyu+C5UEVHsimhiEwJJPYBiYKGhSvqcrE4TVIYqaoNt5Fw1QGkc65XPH74hZH4NuyhZBlKiZFbhr5RyI+c6Kb5DQTiGaicksMyNChhfEhIyy9yhvvCQpTi9M1EnhJHlKgTMCwU5iGHqz2NQ6GSbAMhxEALn5PReSoESaPdVc7wD5LVdblYcs2nPotuh4JcNbav4tVfb8Ac=);whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="40" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Card title&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#6c767d&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;Card subtitle&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-7" value="Card link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=14;align=center;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-6">
+          <mxGeometry y="1" width="80" height="40" relative="1" as="geometry">
+            <mxPoint x="10" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-8" value="Another link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=14;align=center;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-6">
+          <mxGeometry y="1" width="100" height="40" relative="1" as="geometry">
+            <mxPoint x="100" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-9" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=bottom;align=left;spacing=20;spacingBottom=130;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="300" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-10" value="Image cap" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=#DEE2E6;resizeWidth=1;fontSize=18;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry width="300" height="180" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="perimeter=none;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;resizeWidth=1;verticalAlign=top;align=left;spacing=20;spacingTop=-10;fontSize=14;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry width="300" height="120" relative="1" as="geometry">
+            <mxPoint y="180" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-12" value="Cras justo odio" style="html=1;shadow=0;dashed=0;strokeColor=none;fontSize=14;fillColor=none;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry width="300" height="30" relative="1" as="geometry">
+            <mxPoint y="300" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-13" value="Dapibus ac facilisis in" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;fontSize=14;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry width="300" height="30" relative="1" as="geometry">
+            <mxPoint y="330" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-14" value="Vestibulum at eros" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;fontSize=14;whiteSpace=wrap;resizeWidth=1;resizeHeight=0;align=left;spacing=10;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry width="300" height="30" relative="1" as="geometry">
+            <mxPoint y="360" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-15" value="Card link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=14;align=center;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry y="1" width="96" height="40" relative="1" as="geometry">
+            <mxPoint x="10" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-16" value="Another link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=14;align=center;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry y="1" width="120" height="40" relative="1" as="geometry">
+            <mxPoint x="100" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-18" value="Another link" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#0085FC;resizeWidth=1;fontSize=14;align=center;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry y="1" width="120" height="40" relative="1" as="geometry">
+            <mxPoint y="-90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-19" value="Info" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=0;fontSize=14;spacingLeft=10;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry y="127" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-20" value="" style="shape=triangle;direction=south;fillColor=#ffffff;strokeColor=none;perimeter=none;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-19">
+          <mxGeometry x="1" y="0.5" width="10" height="5" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-21" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#ffffff;strokeColor=#999999;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-9">
+          <mxGeometry y="170" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-22" value="Action" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-21">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-23" value="Another action" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-21">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-24" value="Something else here" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-21">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-25" value="" style="shape=line;strokeColor=#999999;perimeter=none;resizeWidth=1;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-21">
+          <mxGeometry width="170" height="10" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9ebIGLydlCaJYNpwxiY-26" value="Separated link" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;" vertex="1" parent="Z9ebIGLydlCaJYNpwxiY-21">
+          <mxGeometry width="170" height="30" relative="1" as="geometry">
+            <mxPoint y="110" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
