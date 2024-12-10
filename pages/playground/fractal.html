@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fractal Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .controls {
+            width: 300px;
+            padding: 20px;
+            background: #2a2a2a;
+            border-right: 1px solid #444;
+        }
+
+        .canvas-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        canvas {
+            background: black;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .control-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            background: #333;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4a90e2;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background: #357abd;
+        }
+
+        .color-picker {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+
+        .color-picker input {
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            border: 2px solid #444;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .color-picker input:hover {
+            border-color: #666;
+        }
+
+        #colorScheme {
+            margin-bottom: 15px;
+        }
+
+        #gradientControls {
+            padding: 10px;
+            background: #333;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .param-group {
+            margin: 10px 0;
+            padding: 5px;
+            background: #333;
+            border-radius: 4px;
+        }
+
+        .param-group label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .param-group span {
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .param-group input[type="range"] {
+            width: 100%;
+            margin: 5px 0;
+        }
+
+        .parameter-panel {
+            background: #2a2a2a;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #444;
+        }
+
+        .param-group {
+            margin: 8px 0;
+            padding: 8px;
+            background: #333;
+            border-radius: 4px;
+        }
+
+        .param-group label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ddd;
+            font-size: 0.9em;
+        }
+
+        .param-group span {
+            color: #aaa;
+            font-size: 0.8em;
+            min-width: 40px;
+            text-align: right;
+        }
+
+        .param-group input[type="range"] {
+            width: 100%;
+            margin: 8px 0;
+            background: #444;
+            height: 4px;
+            border-radius: 2px;
+            -webkit-appearance: none;
+        }
+
+        .param-group input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            background: #4a90e2;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .param-group input[type="range"]::-webkit-slider-thumb:hover {
+            background: #357abd;
+        }
+
+        #colorControls {
+            margin-top: 15px;
+            padding: 10px;
+            background: #2a2a2a;
+            border-radius: 5px;
+        }
+
+        #colorScheme {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            border-radius: 4px;
+        }
+
+        #colorScheme:hover {
+            background: #444;
+        }
+
+        #animationToggle {
+            margin-top: 10px;
+            background: #4a90e2;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #animationToggle:hover {
+            background: #357abd;
+        }
+
+        .param-group {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <div class="control-group">
+                <label>Fractal Type</label>
+                <select id="fractalType" onchange="updateControlPanels()">
+                    <option value="mandelbrot">Mandelbrot Set</option>
+                    <option value="julia" selected>Julia Set</option>
+                    <option value="sierpinski">Sierpinski Triangle</option>
+                    <option value="tree">Fractal Tree</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Iterations</label>
+                <input type="range" id="iterations" min="1" max="100" value="50">
+                <span id="iterationsValue">50</span>
+            </div>
+
+            <div class="control-group" id="colorControls">
+                <label>Color Scheme</label>
+                <select id="colorScheme" onchange="generate()">
+                    <option value="psychedelic">Psychedelic</option>
+                    <option value="multiwave">Multiwave</option>
+                    <option value="neon">Neon</option>
+                    <option value="rainbow_smooth">Smooth Rainbow</option>
+                    <option value="electric">Electric</option>
+                    <option value="cosmic">Cosmic</option>
+                    <option value="thermal">Thermal</option>
+                    <option value="quantum">Quantum</option>
+                    <option value="aurora">Aurora</option>
+                    <option value="deep_sea">Deep Sea</option>
+                </select>
+
+                <div class="param-group">
+                    <label>Color Speed</label>
+                    <input type="range" id="colorSpeed" min="0" max="100" value="50" onchange="updateColorSpeed()">
+                    <span id="colorSpeedValue">50</span>
+                </div>
+            </div>
+
+            <div class="control-group parameter-panel" id="mandelbrotControls" style="display: none;">
+                <label>Mandelbrot Parameters</label>
+                <div class="param-group">
+                    <label>Zoom</label>
+                    <input type="range" id="zoom" min="0.5" max="5" step="0.1" value="1">
+                    <span id="zoomValue">1.0</span>
+                </div>
+                
+                <div class="param-group">
+                    <label>Center X</label>
+                    <input type="range" id="centerX" min="-2" max="1" step="0.05" value="-0.5">
+                    <span id="centerXValue">-0.5</span>
+                </div>
+                
+                <div class="param-group">
+                    <label>Center Y</label>
+                    <input type="range" id="centerY" min="-1.5" max="1.5" step="0.05" value="0">
+                    <span id="centerYValue">0</span>
+                </div>
+                
+                <div class="param-group">
+                    <label>Power</label>
+                    <input type="range" id="power" min="2" max="6" step="1" value="2">
+                    <span id="powerValue">2</span>
+                </div>
+                
+                <div class="param-group">
+                    <label>Escape Radius</label>
+                    <input type="range" id="escapeRadius" min="2" max="20" step="1" value="4">
+                    <span id="escapeRadiusValue">4</span>
+                </div>
+
+
+            <div class="control-group">
+                <label>Interesting Locations</label>
+                <div class="preset-buttons">
+                    <button onclick="loadPreset('main')">Main View</button>
+                    <button onclick="loadPreset('spiral')">Spiral</button>
+                    <button onclick="loadPreset('seahorse')">Seahorse Valley</button>
+                    <button onclick="loadPreset('elephant')">Elephant Valley</button>
+                    <button onclick="loadPreset('mini')">Mini Mandelbrot</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="control-group parameter-panel" id="juliaControls" style="display: none;">
+                <label>Julia Parameters</label>
+                <div class="param-group">
+                    <label>Real Part</label>
+                    <input type="range" id="juliaReal" min="-2" max="2" step="0.01" value="1">
+                    <span id="juliaRealValue">0</span>
+                </div>
+                <div class="param-group">
+                    <label>Imaginary Part</label>
+                    <input type="range" id="juliaImag" min="-2" max="2" step="0.01" value="0">
+                    <span id="juliaImagValue">0</span>
+                </div>
+            </div>
+
+            <div class="control-group parameter-panel" id="sierpinskiControls" style="display: none;">
+                <label>Sierpinski Parameters</label>
+                <div class="param-group">
+                    <label>Recursion Depth</label>
+                    <input type="range" id="sierpinskiDepth" min="1" max="9" step="1" value="6">
+                    <span id="sierpinskiDepthValue">6</span>
+                </div>
+            </div>
+
+            <div class="control-group parameter-panel" id="treeControls" style="display: none;">
+                <label>Tree Parameters</label>
+                <div class="param-group">
+                    <label>Branch Angle</label>
+                    <input type="range" id="branchAngle" min="0" max="180" value="45">
+                    <span id="branchAngleValue">45</span>
+                </div>
+                <div class="param-group">
+                    <label>Branch Scale</label>
+                    <input type="range" id="branchScale" min="0.1" max="0.9" step="0.1" value="0.7">
+                    <span id="branchScaleValue">0.7</span>
+                </div>
+            </div>
+
+            <button onclick="generate()">Generate</button>
+            <button onclick="downloadImage()">Download</button>
+            <button onclick="toggleAnimation()">Toggle Animation</button>
+            <button id="animationToggle" onclick="toggleColorAnimation()">Start Color Animation</button>
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        let width = 800;
+        let height = 800;
+        canvas.width = width;
+        canvas.height = height;
+
+        function updateControlPanels() {
+            const fractalType = document.getElementById('fractalType').value;
+            
+            // 隐藏所有参数面板
+            document.querySelectorAll('.parameter-panel').forEach(panel => {
+                panel.style.display = 'none';
+            });
+            
+            // 显示当前分形类型的参数面板
+            const currentPanel = document.getElementById(fractalType + 'Controls');
+            if (currentPanel) {
+                currentPanel.style.display = 'block';
+            }
+            
+            // 更新颜色控制面板的显示
+            const colorControls = document.getElementById('colorControls');
+            if (fractalType === 'sierpinski' || fractalType === 'tree') {
+                colorControls.querySelector('.color-picker').style.display = 'flex';
+                colorControls.querySelector('#colorScheme').style.display = 'none';
+            } else {
+                colorControls.querySelector('.color-picker').style.display = 'none';
+                colorControls.querySelector('#colorScheme').style.display = 'block';
+            }
+            
+            // 重新生成分形
+            generate();
+        }
+
+        // 为所有范围滑块添加值显示更新
+        document.querySelectorAll('input[type="range"]').forEach(input => {
+            input.addEventListener('input', function() {
+                const valueSpan = document.getElementById(this.id + 'Value');
+                if (valueSpan) {
+                    valueSpan.textContent = this.value;
+                }
+                generate();
+            });
+        });
+
+        function generate() {
+            const type = document.getElementById('fractalType').value;
+            const iterations = parseInt(document.getElementById('iterations').value);
+
+            ctx.clearRect(0, 0, width, height);
+
+            switch(type) {
+                case 'mandelbrot':
+                    drawMandelbrot(iterations);
+                    break;
+                case 'julia':
+                    const real = parseFloat(document.getElementById('juliaReal').value);
+                    const imag = parseFloat(document.getElementById('juliaImag').value);
+                    drawJulia(iterations, real, imag);
+                    break;
+                case 'sierpinski':
+                    drawSierpinski(iterations);
+                    break;
+                case 'tree':
+                    const angle = parseFloat(document.getElementById('branchAngle').value);
+                    const scale = parseFloat(document.getElementById('branchScale').value);
+                    drawTree(width/2, height, angle, scale, iterations);
+                    break;
+            }
+        }
+
+        function drawMandelbrot(maxIter) {
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+            
+            // 获取参数值
+            const zoom = parseFloat(document.getElementById('zoom').value);
+            const centerX = parseFloat(document.getElementById('centerX').value);
+            const centerY = parseFloat(document.getElementById('centerY').value);
+            const power = parseInt(document.getElementById('power').value);
+            const escapeRadius = parseFloat(document.getElementById('escapeRadius').value);
+
+            for(let x = 0; x < width; x++) {
+                for(let y = 0; y < height; y++) {
+                    // 根据缩放和中心点计算复平面坐标
+                    let a = map(x, 0, width, -2/zoom + centerX, 1/zoom + centerX);
+                    let b = map(y, 0, height, -1.5/zoom + centerY, 1.5/zoom + centerY);
+                    
+                    let ca = a;
+                    let cb = b;
+                    let n = 0;
+                    
+                    while(n < maxIter) {
+                        // 计算z^power + c
+                        let aa = a;
+                        let bb = b;
+                        
+                        // 计算复数的power次方
+                        for(let i = 1; i < power; i++) {
+                            const tempA = aa * a - bb * b;
+                            const tempB = aa * b + bb * a;
+                            aa = tempA;
+                            bb = tempB;
+                        }
+                        
+                        a = aa + ca;
+                        b = bb + cb;
+                        
+                        if(a * a + b * b > escapeRadius) {
+                            break;
+                        }
+                        n++;
+                    }
+
+                    // 使用平滑着色
+                    let smooth = n;
+                    if(n < maxIter) {
+                        const log_zn = Math.log(a * a + b * b) / 2;
+                        const nu = Math.log(log_zn / Math.log(2)) / Math.log(2);
+                        smooth = n + 1 - nu;
+                    }
+
+                    const color = generateColors(smooth, maxIter);
+                    const pix = (x + y * width) * 4;
+
+                    data[pix + 0] = color.r;
+                    data[pix + 1] = color.g;
+                    data[pix + 2] = color.b;
+                    data[pix + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+        }
+
+        function drawJulia(maxIter, real, imag, color1, color2) {
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+
+            for(let x = 0; x < width; x++) {
+                for(let y = 0; y < height; y++) {
+                    let a = map(x, 0, width, -2, 2);
+                    let b = map(y, 0, height, -2, 2);
+                    
+                    let n = 0;
+                    while(n < maxIter) {
+                        const aa = a * a - b * b;
+                        const bb = 2 * a * b;
+                        
+                        a = aa + real;
+                        b = bb + imag;
+                        
+                        if(a * a + b * b > 4) {
+                            break;
+                        }
+                        n++;
+                    }
+
+                    const color = generateColors(n, maxIter);
+                    const pix = (x + y * width) * 4;
+
+                    data[pix + 0] = color.r;
+                    data[pix + 1] = color.g;
+                    data[pix + 2] = color.b;
+                    data[pix + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+        }
+
+        function drawSierpinski(iterations) {
+            ctx.fillStyle = document.getElementById('color1').value;
+            
+            const p1 = {x: width/2, y: 50};
+            const p2 = {x: 50, y: height-50};
+            const p3 = {x: width-50, y: height-50};
+
+            function drawTriangle(p1, p2, p3) {
+                ctx.beginPath();
+                ctx.moveTo(p1.x, p1.y);
+                ctx.lineTo(p2.x, p2.y);
+                ctx.lineTo(p3.x, p3.y);
+                ctx.closePath();
+                ctx.fill();
+            }
+
+            function sierpinski(p1, p2, p3, iter) {
+                if(iter === 0) {
+                    drawTriangle(p1, p2, p3);
+                    return;
+                }
+
+                const p12 = {x: (p1.x + p2.x)/2, y: (p1.y + p2.y)/2};
+                const p23 = {x: (p2.x + p3.x)/2, y: (p2.y + p3.y)/2};
+                const p31 = {x: (p3.x + p1.x)/2, y: (p3.y + p1.y)/2};
+
+                sierpinski(p1, p12, p31, iter-1);
+                sierpinski(p12, p2, p23, iter-1);
+                sierpinski(p31, p23, p3, iter-1);
+            }
+
+            sierpinski(p1, p2, p3, iterations);
+        }
+
+        function drawTree(x, y, angle, scale, iterations) {
+            ctx.strokeStyle = document.getElementById('color1').value;
+            ctx.lineWidth = 2;
+
+            function branch(x, y, len, angle, iter) {
+                if(iter === 0) return;
+
+                const endX = x + len * Math.sin(angle);
+                const endY = y - len * Math.cos(angle);
+
+                ctx.beginPath();
+                ctx.moveTo(x, y);
+                ctx.lineTo(endX, endY);
+                ctx.stroke();
+
+                const branchAngle = parseFloat(document.getElementById('branchAngle').value) * Math.PI / 180;
+                branch(endX, endY, len * scale, angle + branchAngle, iter-1);
+                branch(endX, endY, len * scale, angle - branchAngle, iter-1);
+            }
+
+            branch(x, y, 120, -Math.PI/2, iterations);
+        }
+
+        // 辅助函数
+        function map(value, start1, stop1, start2, stop2) {
+            return start2 + (stop2 - start2) * ((value - start1) / (stop1 - start1));
+        }
+
+        function generateColors(n, maxIter) {
+            const scheme = document.getElementById('colorScheme').value;
+            const t = n / maxIter;
+
+            switch(scheme) {
+                case 'psychedelic':
+                    // 迷幻色彩
+                    return {
+                        r: Math.sin(t * 20) * 127 + 128,
+                        g: Math.sin(t * 15 + Math.PI/2) * 127 + 128,
+                        b: Math.sin(t * 10 + Math.PI) * 127 + 128
+                    };
+
+                case 'multiwave':
+                    // 多重波浪
+                    const frequency = 6.28318;
+                    return {
+                        r: Math.sin(frequency * t + 0) * 127 + 128,
+                        g: Math.sin(frequency * t + 2) * 127 + 128,
+                        b: Math.sin(frequency * t + 4) * 127 + 128
+                    };
+
+                case 'neon':
+                    // 霓虹效果
+                    const phase = t * Math.PI * 2;
+                    const brightness = Math.pow(t, 0.5); // 增加亮度对比
+                    return {
+                        r: (Math.sin(phase * 3) + 1) * 127 * brightness,
+                        g: (Math.sin(phase * 5) + 1) * 127 * brightness,
+                        b: (Math.sin(phase * 7) + 1) * 127 * brightness
+                    };
+
+                case 'rainbow_smooth':
+                    // 平滑彩虹
+                    return hslToRgb((t * 360 * 3) % 360, 100, 50);
+
+                case 'electric':
+                    // 电光效果
+                    return {
+                        r: Math.pow(Math.sin(t * Math.PI), 2) * 255,
+                        g: Math.pow(Math.cos(t * Math.PI * 2), 2) * 255,
+                        b: Math.pow(Math.sin(t * Math.PI * 4), 2) * 255
+                    };
+
+                case 'cosmic':
+                    // 宇宙效果
+                    const v = Math.pow(t, 0.5);
+                    return {
+                        r: Math.sin(v * 10) * 127 + 128,
+                        g: Math.sin(v * 20) * 127 + 128,
+                        b: Math.sin(v * 30) * 127 + 128
+                    };
+
+                case 'thermal':
+                    // 热力图效果
+                    if (t < 0.33) {
+                        return {
+                            r: t * 3 * 255,
+                            g: 0,
+                            b: 0
+                        };
+                    } else if (t < 0.66) {
+                        return {
+                            r: 255,
+                            g: (t - 0.33) * 3 * 255,
+                            b: 0
+                        };
+                    } else {
+                        return {
+                            r: 255,
+                            g: 255,
+                            b: (t - 0.66) * 3 * 255
+                        };
+                    }
+
+                case 'quantum':
+                    // 量子效果
+                    return {
+                        r: Math.sin(t * 20) * Math.cos(t * 10) * 255,
+                        g: Math.sin(t * 15) * Math.cos(t * 5) * 255,
+                        b: Math.sin(t * 10) * Math.cos(t * 15) * 255
+                    };
+
+                case 'aurora':
+                    // 极光效果
+                    return {
+                        r: Math.sin(t * Math.PI * 2) * 64 + 190,
+                        g: Math.sin(t * Math.PI * 3) * 64 + 190,
+                        b: Math.sin(t * Math.PI * 4) * 64 + 190
+                    };
+
+                case 'deep_sea':
+                    // 深海效果
+                    const depth = Math.pow(t, 2);
+                    return {
+                        r: depth * 30,
+                        g: depth * 100,
+                        b: 150 + depth * 105
+                    };
+            }
+        }
+
+        function getColor(n, maxIter) {
+            const t = (n / maxIter + colorOffset) % 1;
+            return generateColors(t * maxIter, maxIter);
+        }
+
+        function smoothColor(n, maxIter, z) {
+            if (n === maxIter) return 0;
+            
+            const smooth = n + 1 - Math.log(Math.log(Math.abs(z))) / Math.log(2);
+            return smooth / maxIter;
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = 'fractal.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+
+        let colorOffset = 0;
+        let animationId;
+
+        function animate() {
+            colorOffset += 0.01;
+            generate();
+            animationId = requestAnimationFrame(animate);
+        }
+
+        function toggleAnimation() {
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+                animationId = null;
+            } else {
+                animate();
+            }
+        }
+
+        // 添加参数值显示更新
+        document.querySelectorAll('#mandelbrotControls input[type="range"]').forEach(input => {
+            input.addEventListener('input', function() {
+                document.getElementById(this.id + 'Value').textContent = this.value;
+                generate();
+            });
+        });
+
+        // 添加一些有趣的预设位置
+        const presets = {
+            'main': { x: -0.5, y: 0, zoom: 1, power: 2 },
+            'spiral': { x: -0.744, y: 0.1, zoom: 4, power: 2 },
+            'seahorse': { x: -0.743, y: 0.126, zoom: 3, power: 2 },
+            'elephant': { x: 0.3, y: 0, zoom: 2, power: 2 },
+            'mini': { x: -1.77, y: 0, zoom: 3, power: 2 }
+        };
+
+        function loadPreset(name) {
+            const preset = presets[name];
+            document.getElementById('centerX').value = preset.x;
+            document.getElementById('centerY').value = preset.y;
+            document.getElementById('zoom').value = preset.zoom;
+            document.getElementById('power').value = preset.power;
+            
+            // 更新显示的值
+            document.getElementById('centerXValue').textContent = preset.x;
+            document.getElementById('centerYValue').textContent = preset.y;
+            document.getElementById('zoomValue').textContent = preset.zoom;
+            document.getElementById('powerValue').textContent = preset.power;
+            
+            generate();
+        }
+
+        // ���始生成
+        generate();
+
+        // 初始化
+        window.onload = function() {
+            updateControlPanels();
+            updateColorSpeed();
+        };
+
+        let colorAnimationId = null;
+        let colorSpeed = 0.01;
+
+        function updateColorSpeed() {
+            const speedControl = document.getElementById('colorSpeed');
+            const speedValue = document.getElementById('colorSpeedValue');
+            colorSpeed = speedControl.value / 5000;
+            speedValue.textContent = speedControl.value;
+        }
+
+        function animateColors() {
+            colorOffset += colorSpeed;
+            generate();
+            colorAnimationId = requestAnimationFrame(animateColors);
+        }
+
+        // 修改颜色方案选择器的事件处理
+        document.getElementById('colorScheme').addEventListener('change', function() {
+            // 立即重新生成分形
+            generate();
+            
+            // 如果正在动画，重启动画
+            if (colorAnimationId) {
+                cancelAnimationFrame(colorAnimationId);
+                animateColors();
+            }
+        });
+
+        // 添加动画控制按钮的处理
+        function toggleColorAnimation() {
+            const button = document.getElementById('animationToggle');
+            if (colorAnimationId) {
+                cancelAnimationFrame(colorAnimationId);
+                colorAnimationId = null;
+                button.textContent = 'Start Color Animation';
+            } else {
+                animateColors();
+                button.textContent = 'Stop Color Animation';
+            }
+        }
+    </script>
+</body>
+</html> 
