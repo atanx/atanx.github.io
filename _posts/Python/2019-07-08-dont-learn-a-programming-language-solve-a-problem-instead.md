@@ -2,7 +2,7 @@
 layout: post
 title: 【思考】 学会解决问题
 description: 不要太关注技术，学会解决问题
-category: 思考
+category: Python
 ---
 
     这是一篇关于虚度青春的短篇回忆录。
